@@ -28,10 +28,10 @@ const ContactForm = () => {
         <div className={css.div}>
             <form className={css.form} onSubmit={handleSubmit}>
                 <label className={css.label}>Name
-                    <input className={css.input} type='text' value={name} onChange={(evt) => setName(evt.target.value)} />
+                    <input className={css.input1} type='text' value={name} onChange={(evt) => setName(evt.target.value)} />
                 </label>
                 <label className={css.label}>
-                    Number<input className={css.input} type="text" value={number} onChange={(evt) => setNumber(evt.target.value)} />
+                    Number<input className={css.input2} type="text" value={number} onChange={(evt) => setNumber(evt.target.value)} />
                 </label>
                 <button className={css.btn} type="submit">Add Contact</button>
             </form>
