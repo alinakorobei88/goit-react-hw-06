@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .btn {
+    cursor: pointer;
+    min-width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: aqua;
+    color: blueviolet;
+    margin-right: 20px;
+  }
+  
+  .input {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+  }
